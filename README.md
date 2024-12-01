@@ -8,7 +8,7 @@ Ce projet implémente un pipeline de traitement des données pour analyser les r
 - **Publication et diffusion** : Transmission des données traitées à un serveur Kafka pour une consommation ultérieure.
 
 ## Architecture du Projet
-![Pipeline Architecture](assets/pipeline_architecture.png)
+![Pipeline Architecture](/img/airflow.png)
 
 ### Technologies Utilisées
 - **Python** : Pour le scripting et les transformations de données.
