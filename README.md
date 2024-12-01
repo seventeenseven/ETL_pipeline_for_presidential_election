@@ -51,6 +51,9 @@ with DAG('example_dag', schedule_interval='@daily') as dag:
 ### NiFi
 - Utilisé pour orchestrer le flux initial des données brutes et les connecter au serveur Kafka.
 
+![NIFI flow](/img/nifi.png)
+
+
 ## Instructions pour l’Exécution
 
 ### Prérequis
@@ -59,17 +62,6 @@ with DAG('example_dag', schedule_interval='@daily') as dag:
 - Apache Airflow
 - Apache NiFi
 - Apache Kafka
-
-### Installation
-1. Cloner le projet :
-   ```bash
-   git clone https://github.com/votre-projet/election-pipeline.git
-   ```
-2. Installer les dépendances Python :
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Configurer Kafka et NiFi selon les fichiers de configuration fournis dans `/nifi`.
 
 ### Exécution
 1. Démarrez le serveur Kafka :
@@ -89,6 +81,4 @@ Les données traitées seront publiées dans les topics Kafka pour une consommat
 ## Contributions
 Les contributions sont les bienvenues ! Veuillez soumettre vos propositions via des pull requests.
 
-## Auteur
-Alexandra Jane Bitom
 
